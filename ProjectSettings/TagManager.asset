@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Block
+  - Goal
+  - Death
+  - Score
+  - ScoreTag
+  - ScoreText
+  - Cloud
+  - Hill
+  - MenuController
+  - MainMenuButtons
+  - OptionsMenuButtons
+  - StartButton
+  - OptionsButton
+  - CreditsButton
+  - ExitButton
+  - MusicButton
+  - SoundButton
+  - BackButton
+  - DeathMenu
+  - RetryButton
+  - SoundController
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Scenery
+    uniqueID: 33751379
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Pipes
+    uniqueID: 2712084129
+    locked: 0
+  - name: UI
+    uniqueID: 948700043
+    locked: 0

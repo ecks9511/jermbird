@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1102951248403344}
+  m_IsPrefabAsset: 1
+--- !u!1 &1102951248403344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4793651647262554}
+  - component: {fileID: 114213918631290240}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: MenuController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4793651647262554
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102951248403344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 715, y: 427, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114213918631290240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102951248403344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71be5954317dc6d4fae2ba747cc378ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudTypes:
+  - {fileID: 1459545155422082, guid: 42bd4b3e4ec5bbe49b12b4056d6d01a7, type: 2}
+  - {fileID: 1731024277388200, guid: c8866a209ad3fdf41a2087b1bf17ab28, type: 2}
+  - {fileID: 1810363061830862, guid: 3c1859768975d054a9c1bc7fa1474ad7, type: 2}
+  - {fileID: 1155851815825748, guid: 95058e009580a504a83867139ef7c3c6, type: 2}
+  hillTypes:
+  - {fileID: 1259788405864706, guid: bf727a387c586b640a4fbfa771bad97d, type: 2}
+  playerScript: {fileID: 0}
+  pipeSpeed: 0
+  scenerySpeed: 0

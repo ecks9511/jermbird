@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1439106154588692}
+  m_IsPrefabAsset: 1
+--- !u!1 &1439106154588692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4763894997913858}
+  - component: {fileID: 114783910890914454}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4763894997913858
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439106154588692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7708924, y: -0.68509555, z: -0.06011723}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114783910890914454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439106154588692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73cb7e2c45f03d14abac6ac37d33a239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudTypes:
+  - {fileID: 1401888443556888, guid: 2d87f441d4cd9fd44819bbb2f512c644, type: 2}
+  - {fileID: 1096054207074544, guid: f6d9af879026c2b4199ba249a9bdcc02, type: 2}
+  - {fileID: 1404652396492964, guid: 50f07a921b861ec43ae09206a6a8f04d, type: 2}
+  - {fileID: 1554064165479844, guid: bbe3278fc3947e94389b5ef4669df8ea, type: 2}
+  hillTypes:
+  - {fileID: 1756334572815192, guid: 221afe4a2837ff641a0ac4ad2cb8205f, type: 2}
+  - {fileID: 1925678172280660, guid: 39135f2267b1cfa46bccf7db6d5e25c4, type: 2}
+  - {fileID: 1531218300927880, guid: 8eafc516c5a338e48a86726268c7f01f, type: 2}
+  - {fileID: 1695159751835492, guid: 0acc46fe06f4fbe449b650151b77f4dd, type: 2}
+  - {fileID: 1903777750436728, guid: 33a7dee6658e3b246b1afa7d15c6e4c5, type: 2}
+  blocksObjs: []
+  blockObj: {fileID: 1253501277747240, guid: 1b026c87ce40398499a12ccf798bf2e4, type: 2}
+  playerObj: {fileID: 0}
+  playerRb: {fileID: 0}
+  playerScript: {fileID: 0}
+  scoreObj: {fileID: 0}
+  scoreText: {fileID: 0}
+  dead: 0
+  playerPos: {x: 0, y: 0}
+  pipeSpeed: 0
+  scenerySpeed: 0
